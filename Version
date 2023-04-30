@@ -1,1 +1,2 @@
 _G.ScriptVersion = "V1"
+_G.Message = "Update some basic functions"
