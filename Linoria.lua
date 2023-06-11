@@ -1790,13 +1790,6 @@ do
             end
         end
 
-        task.spawn(Update)
-
-        Box:GetPropertyChangedSignal('Text'):Connect(Update)
-        Box:GetPropertyChangedSignal('CursorPosition'):Connect(Update)
-        Box.FocusLost:Connect(Update)
-        Box.Focused:Connect(Update)
-
         Library:AddToRegistry(Box, {
             TextColor3 = 'FontColor';
         });
